@@ -1,0 +1,42 @@
+body {
+  margin: 20px;
+  font-family: 'Lato';
+  font-weight: 300;
+  text-align: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 2px solid black;
+  margin: 10px;
+  opacity: 0.1;
+}
+
+#a {
+  background: blue;
+}
+
+#b {
+  background: red;
+}
+
+#c {
+  background: yellow;
+}
+
+button {
+  background: wheat;
+  border: 1px solid black;
+  font-family: 'Lato';
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin: 1%;
+  bottom: 0;
+}
+#buttonhold{position:absolute;
+bottom: 30%;
+width: 80%;
+margin-left: 10%;}
