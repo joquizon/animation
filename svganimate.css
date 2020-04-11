@@ -1,0 +1,32 @@
+body {
+  margin: 20px;
+  font-family: 'Lato';
+  font-weight: 300;
+  text-align: center;
+}
+
+.imghold{
+  width:20%;
+  margin-left: 10%;
+  float: left;
+}
+
+button {
+  background: wheat;
+  border: 1px solid black;
+  font-family: 'Lato';
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin: 1%;
+  bottom: 0;
+}
+#buttonhold{position:absolute;
+bottom: 05%;
+margin-left: 0%}
+
+.battery,.battery2,.battery3 { display: none; }
+
+#bookmark,#bookmark2,#bookmark3,#bookmark4 { display: none; }
+
+ #mid,#mid2,#mid3{ display: none; }
