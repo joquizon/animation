@@ -4,17 +4,66 @@
 
     <title>Morph</title>
 
-	<link rel="stylesheet" href="partone.css">	
+	<link rel="stylesheet" href="svganimate.css">	
 </head>
 
 <body>
-	<div>
+	<div class="imghold">
+		<svg x="0px" y="0px" viewBox="0 0 360 360" xml:space="preserve">
 
-</div>
-<div id='buttonhold'>
-	<button class="start">Start Animation</button>
-</div>
 
+	<path id="start" display="inline" fill="none" stroke="#EF5124" stroke-miterlimit="10"stroke-linecap="round" stroke-width="4" d="M103.7,269.7h-52l-29.3-60L81,93.7L103.7,269.7z"/>
+	<path id="start2" display="inline" fill="none" stroke="#EF5124" stroke-miterlimit="10"stroke-linecap="round" stroke-width="4" d="M193,269.7h-53.3L134.3,33l65.3,3.3L193,269.7z"/>
+	<path id="start3" display="inline" fill="none" stroke="#EF5124" stroke-miterlimit="10"stroke-linecap="round" stroke-width="4"  d="M343,247.7l-51.3,18.7h-68L285,169L343,247.7z"/>
+
+
+
+	<path id="bookmark" fill="none"  stroke-miterlimit="10"stroke-linecap="round" stroke-width="4"d="M95,336.3l-43.3-66.7l-26-164l55.3-12L95,336.3z"/>
+	<path id="bookmark2"fill="none"  stroke-miterlimit="10"stroke-linecap="round" stroke-width="4" d="M216.3,159.7l-76.7,110l-10-145.3l70-88L216.3,159.7z"/>
+	<path id="bookmark3"fill="none"  stroke-miterlimit="10"stroke-linecap="round" stroke-width="4" d="M347.7,342.3l-56-76l-50,70L285,169L347.7,342.3z"/>
+
+	<path id="bookmark4" fill="none"  stroke-miterlimit="10"stroke-linecap="round" stroke-width="4"d="M95,336.3l-43.3-66.7l-26-164l55.3-12L95,500.3z"/>
+
+
+<!-- the order of how the points are plotted then manipulated via illustrator matter in the morph -->
+
+
+		</svg>
+	</div>
+
+
+
+
+
+	<div class="imghold">
+		<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"y="0px" viewBox="0 0 360 360" xml:space="preserve">
+			<polyline id="bluebar1" fill="#0093C6" points="122.7,135.7 122.7,322.3 86.1,322.3 86.1,135.7 	"/>
+			<polyline id="bluebar2" fill="#0093C6" points="197.9,103.7 197.9,322.3 154.9,322.3 154.9,103.7 	"/>
+			<polyline id="bluebar3" fill="#0093C6" points="273.9,62.3 273.9,322.3 222.9,322.3 222.9,62.3 	"/>
+
+		</svg>
+	</div>
+
+
+	<div class="imghold">
+
+		<svg id="drawmethod" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+			 y="0px" viewBox="0 0 360 360" xml:space="preserve">
+
+			<polyline class="battery" fill="none" stroke="#EF5172" stroke-miterlimit="10"stroke-linecap="round" stroke-width="4" points="70.5,163.7 27.7,233.5 83.2,233.5 125.8,163.7 	"/>
+			<polyline class="battery2" fill="none" stroke="#EF5172" stroke-miterlimit="10"stroke-linecap="round" stroke-width="4" points="161.6,163.7 118.8,233.5 174.3,233.5 216.9,163.7 	"/>
+			<polyline class="battery3" fill="none" stroke="#EF5172" stroke-miterlimit="10"stroke-linecap="round" stroke-width="4" points="252.7,163.7 209.9,233.5 265.4,233.5 308,163.7 	"/>
+		</svg>
+
+	</div>
+
+
+
+	<div id='buttonhold'>
+	<button class="startbutton"id="startbutton1">Path Method</button><br>
+	<button class="startbutton"id="startbutton3">SvgMorph Method</button>	
+	<button class="startbutton"id="startbutton2">Draw Method</button>
+	</div>
 
 
 
