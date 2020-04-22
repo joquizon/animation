@@ -1,0 +1,67 @@
+ body {
+  background: #20262E;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+.box1,.box2,.box3,.box1a,.box2a,.box3a{
+  width:100%;
+  overflow:visible; 
+}
+.mainhold {
+    width: 19%;
+  margin-left: 1%;
+}
+.ibody{margin:25%;
+background-color: orange;
+position: absolute;
+}
+
+.hold1,.hold2,.hold3,.hold4,.hold5,.hold6{
+  background-color: white;
+     width: 60%;
+  margin-left: 1%;
+  display: grid;
+  grid-template-columns: auto auto;
+  float: left;
+  margin-top: 2.25%;
+overflow:visible; ;
+}
+.box1 {
+}
+.box2 {
+  transform:translateY(-40%);
+}
+.box3 {
+    transform: scaleY(-1) translateY(50%);
+}
+
+.wings{width: 100%;overflow:visible; }
+
+
+
+#banner-message {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+  width: 300px;
+}
+#svghold{
+  width: 50%;
+  }
+.svgs{
+  width: 40%;
+}
+.box1a{
+   transform: scaleX(-1);
+}
+.box2a{
+   transform: scaleX(-1) translateY(-40%);
+}
+.box3a{
+transform: scaleY(-1) scaleX(-1) translateY(50%);
+}
